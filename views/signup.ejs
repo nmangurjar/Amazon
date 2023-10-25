@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+   <div class="container col-3 mt-2" >
+    <img style="height: 52px; margin-left: 100px;
+    width: 145px;
+    object-fit: cover;" src="../images/logonew.png" alt="">
+    <form action="/createuser" method="post" style="border: 1px solid rgb(185, 183, 183); border-radius: 10px; padding: 20px;">
+       
+        <div class="mb-3">
+            <h3 style="font-weight: 400; color: black;">Create Account</h3>
+          <label style="color: black; font-weight: 600; font-size: 14px;" for="exampleInputEmail1" class="form-label">Your name
+        </label>
+        <input style="width: 300px; height: 30px; border: 1px solid rgb(130, 128, 128); margin-bottom: 10px;" name="name"  type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label style="color: black; font-weight: 600; font-size: 14px;" for="exampleInputEmail1" class="form-label">Mobile number
+        </label> <input style="width: 300px; height: 30px; border: 1px solid rgb(130, 128, 128); margin-bottom: 20px;" name="number"  type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label style="color: black; font-weight: 600; font-size: 14px;" for="exampleInputEmail1" class="form-label">Email (Optional)
+        </label> <input style="width: 300px; height: 30px; border: 1px solid rgb(130, 128, 128); margin-bottom: 20px;" name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label style="color: black; font-weight: 600; font-size: 14px;" for="exampleInputEmail1" class="form-label">Password
+        </label> <input style="width: 300px; height: 30px; border: 1px solid rgb(130, 128, 128); margin-bottom: 20px;" name="password" type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text" style="font-size: 13px; color: black;">To verify your number, we will send you a text message with a temporary code. Message and data rates may apply</div>
+    </div>
+        <button style=" background-color: #F7CA00; margin-bottom: 15px; color: black; border: none; width: 300px; height: 30px; font-size: 13px;" type="submit" class="btn btn-primary">Verify mobile number</button>
+        <div id="emailHelp" class="form-text" style="font-size: 13px; color: black;">By creating an account or logging in, you agree to Amazon’s <a href="">Conditions of Use</a> and <a href="">Privacy Policy</a>.</div>
+    </div> 
+
+      </form>
+     
+   </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

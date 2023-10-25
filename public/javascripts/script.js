@@ -5,3 +5,7 @@ btn.addEventListener("click",function(){
   scroll.style.left = "-100%"
 
 })
+
+
+
+
